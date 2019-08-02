@@ -1,0 +1,73 @@
+.table {
+    margin: 3rem auto;
+
+    &-row {
+    }
+
+    &-column {
+        font-size: 1.5rem;
+        padding: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+
+        @media only screen and (max-width: 440px) {
+            font-size: 1.3rem;
+            padding: 1rem;
+        }
+
+        @media only screen and (max-width: 380px) {
+            font-size: 1.2rem;
+            padding: 0.8rem;
+        }
+        @media only screen and (max-width: 340px) {
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+    }
+
+    &-heading {
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 3rem;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+
+        @media only screen and (max-width: 440px) {
+            font-size: 1.3rem;
+            padding: 1rem;
+        }
+
+        @media only screen and (max-width: 380px) {
+            font-size: 1.2rem;
+            padding: 0.8rem;
+        }
+        @media only screen and (max-width: 340px) {
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+    }
+
+    &-highlight {
+        color: $color-primary;
+        font-weight: 600;
+    }
+
+    &-bold {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: $color-grey-dark-1;
+
+        @media only screen and (max-width: 440px) {
+            font-size: 1.5rem;
+        }
+
+        @media only screen and (max-width: 380px) {
+            font-size: 1.2rem;
+        }
+        @media only screen and (max-width: 340px) {
+            font-size: 1rem;
+        }
+    }
+}

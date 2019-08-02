@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Mobiles",
+        "data": [
+            {
+                "id": "m1",
+                "img": "img/iphone1.jpeg",
+                "name": "Iphone",
+                "company": "by Apple",
+                "stars": "5",
+                "current": "68000",
+                "actual": "73000"
+            },
+            {
+                "id": "m2",
+                "img": "img/iphone2.jpeg",
+                "name": "Iphone",
+                "company": "by Apple",
+                "stars": "5",
+                "current": "68000",
+                "actual": "73000"
+            },
+            {
+                "id": "m3",
+                "img": "img/iphone3.jpg",
+                "name": "Iphone",
+                "company": "by Apple",
+                "stars": "5",
+                "current": "68000",
+                "actual": "73000"
+            },
+            {
+                "id": "m4",
+                "img": "img/oneplus1.jpeg",
+                "name": "Oneplus 7",
+                "company": "by oneplus",
+                "stars": "5",
+                "current": "47000",
+                "actual": "52000"
+            },
+            {
+                "id": "m5",
+                "img": "img/oneplus2.jpeg",
+                "name": "Oneplus 7",
+                "company": "by oneplus",
+                "stars": "5",
+                "current": "47000",
+                "actual": "52000"
+            },
+            {
+                "id": "m6",
+                "img": "img/oneplus3.jpg",
+                "name": "Oneplus 7",
+                "company": "by oneplus",
+                "stars": "5",
+                "current": "47000",
+                "actual": "52000"
+            }
+        ]
+    },
+    {
+        "name": "Laptops",
+        "data": [
+            {
+                "id": "l1",
+                "img": "img/macbook1.jpg",
+                "name": "Macbook",
+                "company": "by Apple",
+                "stars": "5",
+                "current": "143000",
+                "actual": "156000"
+            },
+            {
+                "id": "l2",
+                "img": "img/macbook2.jpg",
+                "name": "Macbook",
+                "company": "by Apple",
+                "stars": "5",
+                "current": "143000",
+                "actual": "156000"
+            },
+            {
+                "id": "l3",
+                "img": "img/macbook3.jpg",
+                "name": "Macbook",
+                "company": "by Apple",
+                "stars": "5",
+                "current": "143000",
+                "actual": "156000"
+            }
+        ]
+    }
+]

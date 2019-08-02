@@ -1,0 +1,21 @@
+.textarea {
+    margin: 3rem auto;
+    font-family: inherit;
+    color: $color-grey-dark-1;
+    background-color: $color-grey-light-2;
+    padding: 0.7rem 2rem;
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s;
+
+    @media only screen and (max-width: 440px) {
+        margin: 1rem auto;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: $color-grey-light-3;
+        width: 70%;
+    }
+}

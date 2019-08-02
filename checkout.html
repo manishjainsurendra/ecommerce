@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+        <title>eccommerce</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <svg class="logo">
+                    <use xlink:href="img/sprite.svg#icon-popup"></use>
+                </svg>
+
+                <form action="#" class="search">
+                    <input
+                        type="text"
+                        class="search__input"
+                        placeholder="Search..."
+                    />
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-magnifying-glass"
+                            ></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__cart">
+                        <svg class="user-nav__cart-icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-shopping-cart"
+                            ></use>
+                        </svg>
+                    </div>
+                    <div class="user-nav__user">
+                        <a class="user-nav__user-link" href="auth.html">
+                            <svg class="user-nav__user-icon">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-user"
+                                ></use>
+                            </svg>
+                            <span
+                                id="user-nav__user-name"
+                                class="user-nav__user-name"
+                                >login</span
+                            >
+                        </a>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="sidebar">
+                    <div class="sidebar-heading">
+                        <svg class="sidebar-heading-icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-documents"
+                            ></use>
+                        </svg>
+                        <span class="sidebar-heading-title">Checkout</span>
+                    </div>
+                </div>
+                <div class="product-view">
+                    <main>
+                        <section id="section-checkout" class="section-checkout">
+                            <table
+                                id="section-checkout-table"
+                                class="table"
+                            ></table>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="js/checkout.js"></script>
+    </body>
+</html>

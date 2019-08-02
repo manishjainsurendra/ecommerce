@@ -1,0 +1,13 @@
+.sidebar {
+    flex: 0 0 18%;
+    background-color: $color-grey-dark-1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem 1.5rem;
+
+    @media only screen and (max-width: 750px) {
+        padding: 0 1.5rem;
+    }
+}

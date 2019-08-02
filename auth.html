@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+        <title>eccommerce</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <svg class="logo">
+                    <use xlink:href="img/sprite.svg#icon-popup"></use>
+                </svg>
+
+                <form action="#" class="search">
+                    <input
+                        type="text"
+                        class="search__input"
+                        placeholder="Search..."
+                    />
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-magnifying-glass"
+                            ></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <!-- <div class="user-nav__cart">
+                        <svg class="user-nav__cart-icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-shopping-cart"
+                            ></use>
+                        </svg>
+                    </div>
+                    <div class="user-nav__user">
+                        <a class="user-nav__user-link" href="auth.html">
+                            <svg class="user-nav__user-icon">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-user"
+                                ></use>
+                            </svg>
+                            <span class="user-nav__user-name">Kiran</span>
+                        </a>
+                    </div> -->
+                </nav>
+            </header>
+            <div class="content">
+                <div class="sidebar">
+                    <div class="sidebar-heading">
+                        <svg class="sidebar-heading-icon">
+                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                        </svg>
+                        <span class="sidebar-heading-title"
+                            >Authentication</span
+                        >
+                    </div>
+                </div>
+                <div class="product-view">
+                    <main>
+                        <section class="section-auth">
+                            <div class="card">
+                                <svg class="card-logo">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-popup"
+                                    ></use>
+                                </svg>
+                                <form action="#" class="card-form">
+                                    <div class="card-form__field">
+                                        <svg class="card-form__field-icon">
+                                            <use
+                                                xlink:href="img/sprite.svg#icon-user"
+                                            ></use>
+                                        </svg>
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            class="card-form__field-input"
+                                            placeholder="email"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="card-form__field">
+                                        <svg class="card-form__field-icon">
+                                            <use
+                                                xlink:href="img/sprite.svg#icon-key"
+                                            ></use>
+                                        </svg>
+                                        <input
+                                            type="password"
+                                            id="password"
+                                            class="card-form__field-input"
+                                            placeholder="password"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="card-buttons margin-top-2">
+                                        <a
+                                            class="btn btn--primary btn--animated"
+                                            href="#"
+                                            id="btn-sign-in"
+                                        >
+                                            sign in
+                                        </a>
+                                    </div>
+
+                                    <div class="card-buttons margin-top-2">
+                                        <a
+                                            class="btn btn--primary btn--animated"
+                                            href="#"
+                                            id="btn-sign-up"
+                                        >
+                                            sign up
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="js/auth.js"></script>
+    </body>
+</html>

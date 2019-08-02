@@ -1,0 +1,45 @@
+.side-nav {
+    font-size: 1.4rem;
+    list-style: none;
+    margin-top: 3.5rem;
+
+    @media only screen and (max-width: 750px) {
+        display: flex;
+        margin-top: 0;
+    }
+
+    &__item {
+    }
+
+    &__link:visited,
+    &__link:link {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+        padding: 1.5rem 3rem;
+
+        @media only screen and (max-width: 500px) {
+            padding: 1.5rem 2rem;
+        }
+
+        @media only screen and (max-width: 420px) {
+            padding: 1rem 1rem;
+        }
+    }
+
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-right: 2rem;
+        fill: #fff;
+
+        @media only screen and (max-width: 500px) {
+            margin-right: 1.2rem;
+        }
+
+        @media only screen and (max-width: 420px) {
+            margin-right: 0.8rem;
+        }
+    }
+}

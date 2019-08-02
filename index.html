@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+        <title>eccommerce</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <svg class="logo">
+                    <use xlink:href="img/sprite.svg#icon-popup"></use>
+                </svg>
+
+                <form action="#" class="search">
+                    <input
+                        type="text"
+                        class="search__input"
+                        placeholder="Search..."
+                    />
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-magnifying-glass"
+                            ></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div id="user-nav__cart" class="user-nav__cart">
+                        <a class="user-nav__user-link" href="#">
+                            <svg class="user-nav__cart-icon">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-shopping-cart"
+                                ></use>
+                            </svg>
+                            <span id="cart-badge" class="user-nav__cart-badge"
+                                >0</span
+                            >
+                        </a>
+                    </div>
+                    <div id="user-nav__user" class="user-nav__user"></div>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="sidebar">
+                    <ul id="side-nav" class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-text"
+                                    ></use>
+                                </svg>
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- product list -->
+                <div id="product-view" class="product-view"></div>
+            </div>
+            <!-- popup -->
+            <div id="popup" class="popup">
+                added to cart!
+            </div>
+        </div>
+
+        <script type="module" src="js/index.js"></script>
+    </body>
+</html>

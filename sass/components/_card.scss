@@ -1,0 +1,61 @@
+.card {
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    padding: 4rem 5rem;
+    text-align: center;
+
+    @media only screen and (max-width: 380px) {
+        padding: 2rem 2rem;
+    }
+
+    &-logo {
+        height: 3.25rem;
+        width: 3.25rem;
+        fill: $color-primary;
+        margin-top: 2rem;
+    }
+
+    &-form {
+        margin-top: 5rem;
+        &__field {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            &-icon {
+                height: 2rem;
+                width: 2rem;
+                fill: $color-grey-dark-2;
+                z-index: 20;
+
+                @media only screen and (max-width: 380px) {
+                    height: 1.6rem;
+                    width: 1.6rem;
+                }
+            }
+
+            &-input {
+                font-family: inherit;
+                color: inherit;
+                font-size: 1.6rem;
+                background-color: $color-grey-light-2;
+                padding: 0.7rem 4rem;
+                width: 90%;
+                border: none;
+                border-radius: 100px;
+                margin-left: -3rem;
+                transition: all 0.2s;
+
+                @media only screen and (max-width: 380px) {
+                    font-size: 1.3rem;
+                    padding: 0.7rem 4rem;
+                }
+
+                &:focus {
+                    outline: none;
+                    background-color: $color-grey-light-3;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

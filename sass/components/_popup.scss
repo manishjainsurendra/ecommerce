@@ -1,0 +1,27 @@
+.popup {
+    position: absolute;
+    right: 5rem;
+    bottom: 2rem;
+    display: inline-block;
+    background-color: $color-grey-dark-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    color: $color-white;
+    visibility: hidden;
+
+    @media only screen and (max-width: 480px) {
+        right: 2.5rem;
+        bottom: 1rem;
+        font-size: 1.6rem;
+        padding: 0.5rem 3rem;
+    }
+
+    &-show {
+        visibility: visible;
+        animation: fadeIn 2s;
+    }
+}

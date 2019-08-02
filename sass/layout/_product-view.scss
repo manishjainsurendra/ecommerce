@@ -1,0 +1,7 @@
+.product-view {
+    flex: 1; // to take whole available space
+    // background-color: $color-grey-light-2;
+    overflow-x: hidden;
+    height: calc(100vh - 7rem);
+    background-color: $color-white;
+}
